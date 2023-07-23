@@ -1,0 +1,53 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+
+.header {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: #0c0c0e;
+  color: #fff;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Forum', cursive;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
+  letter-spacing: 0.0375rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 2rem;
+  font-size: 1.25rem;
+  line-height: 3.125rem;
+  color: #ddd;
+}
+
+.menu__item {
+  transition: all .3s;
+}
+
+.menu__item:hover {
+  color: #fff;
+}
+
+.menu__img {
+  display: flex;
+  align-self: center;
+}
