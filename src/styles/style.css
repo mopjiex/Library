@@ -10,6 +10,8 @@ body {
 }
 
 
+/* --------- HEADER ---------- */
+
 .header {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -51,3 +53,40 @@ body {
   display: flex;
   align-self: center;
 }
+
+/* --------- HEADER ---------- */
+
+
+
+/* --------- WELCOME ---------- */
+
+.welcome {
+  background-image: url('../images/welcome/welcome-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  padding-top: 13.75rem;
+  padding-bottom: 10rem;
+}
+
+
+.welcome__wrapper {
+  width: 100%;
+  max-width: 37.5rem;
+  background-color: #0c0c0e;
+  color: #fff;
+  padding: 2.5rem 2.19rem;
+}
+
+.welcome__title {
+  font-family: 'Forum', cursive;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/* --------- WELCOME ---------- */
