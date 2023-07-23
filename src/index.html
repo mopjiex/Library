@@ -6,8 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+    <script src="./scripts/slider.js" defer></script>
     <title>Library</title>
 </head>
 <body>
@@ -43,6 +46,44 @@
             </div>
         </section>
 
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title title">About</h2>
+                <p class="about__text">
+                    The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
+                </p>
+
+                <div class="about__slider swiper">
+                    <div class="about__wrapper swiper-wrapper">
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-1.jpg" alt="Слайд-1" class="about__img">
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-2.jpg" alt="Слайд-2" class="about__img">
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-3.jpg" alt="Слайд-3" class="about__img">
+                        </div>
+
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-4.jpg" alt="Слайд-4" class="about__img">
+                        </div>
+
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-5.jpg" alt="Слайд-5" class="about__img">
+                        </div>
+
+                        <div class="about__slide swiper-slide">
+                            <img src="./images/about/slider/slider-image-2.jpg" alt="Слайд-6" class="about__img">
+                        </div>
+                    </div>
+
+                    <div class="about__pagination swiper-pagination"></div>
+                </div>
+
+                
+            </div>
+        </section>
     </main>
 </body>
 </html>

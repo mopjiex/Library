@@ -1,12 +1,33 @@
+
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .container {
   max-width: 1420px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'Forum', cursive;
+  font-size: 2.5rem;
+  line-height: 100%;
+  letter-spacing: 0.125rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  border-top: 1px solid #0c0c0e;
+  width: 3.125rem;
+  margin: 1.25rem auto 0 auto;
+
 }
 
 
@@ -36,7 +57,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0 2rem;
-  font-size: 1.25rem;
   line-height: 3.125rem;
   color: #ddd;
 }
@@ -90,3 +110,37 @@ body {
 
 
 /* --------- WELCOME ---------- */
+
+
+
+/* --------- ABOUT ---------- */
+
+.about {
+  padding-top: 1.25rem;
+  padding-bottom: 3.75rem;
+}
+
+.about__text {
+  text-align: center;
+  line-height: 200%;
+  margin-bottom: 1.25rem;
+}
+
+.about__img {
+  width: 100%;
+  max-width: 28.125rem;
+}
+
+.about__pagination.swiper-pagination {
+ 
+}
+
+.about__pagination .swiper-pagination-bullet {
+  background-color: #0c0c0e;
+}
+
+.about__pagination  .swiper-pagination-bullet-active {
+  background-color: #bb945f;
+}
+
+/* --------- ABOUT ---------- */
