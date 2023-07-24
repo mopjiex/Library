@@ -126,13 +126,14 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.about__slide {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about__img {
   width: 100%;
   max-width: 28.125rem;
-}
-
-.about__pagination.swiper-pagination {
- 
 }
 
 .about__pagination .swiper-pagination-bullet {
@@ -315,6 +316,7 @@ body {
 /* --------- SHOP ---------- */
 
 /* --------- CONTACTS ---------- */
+
 .contacts {
   padding-bottom: 3.75rem;
 }
@@ -336,4 +338,150 @@ body {
   line-height: 200%;
   letter-spacing: 0.125rem;
   margin-bottom: 1.25em;
+}
+
+/* --------- CONTACTS ---------- */
+
+
+/* --------- CARDS ---------- */
+
+.cards {
+  padding-bottom: 2.56rem;
+}
+
+.cards__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__content-left{
+  width: 100%;
+  max-width: 37.5rem;
+}
+
+.cards__content-left__title {
+  text-align: center;
+  font-size: 1.875rem;
+  letter-spacing: 0.0375rem;
+  margin-bottom: 1.88rem;
+}
+
+.cards__form {
+  padding: 1.25rem 1.25rem 1.87rem 1.25rem;
+  border: 3px solid #bb945f;
+}
+
+.cards__form-content {
+  background-color: #bb945f;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.cards__form-title {
+  font-family: 'Forum', cursive;
+  font-size: 1.875rem;
+  line-height: 166%;
+  letter-spacing: 0.0375rem;
+  margin-bottom: 1.25rem;
+}
+
+.cards__form-input {
+  width: 100%;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.625rem;
+  margin-bottom: 1.56rem;
+}
+
+.cards__form-input:last-child {
+  margin-bottom: 0;
+}
+
+.cards__form-btn {
+  display: block;
+  padding: 0.62rem 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+  border: 1px solid #0c0c0e;
+  margin: 0 auto;
+}
+
+.cards__content-right {
+  width: 100%;
+  max-width: 28.5rem;
+  text-align: right;
+}
+
+.cards__content-right__title {
+  font-family: 'Forum', cursive;
+  font-size: 1.875rem;
+  letter-spacing: 0.0375rem;
+  margin-bottom: 2.19rem;
+}
+
+.cards__content-right__text {
+  line-height: 200%;
+  letter-spacing: 0.025rem;
+  margin-bottom: 2.19rem;
+}
+
+.cards__content-right__btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 1.25rem
+}
+
+.cards__content-right__btn {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  border: 1px solid #0c0c0e;
+  padding: 0.56rem 0.92rem;
+}
+
+/* --------- CARDS ---------- */
+
+/* --------- FOOTER ---------- */
+
+.footer {
+  padding-top: 1.25rem;
+  padding-bottom: 2.75rem;
+  color: #fff;
+  background-color: #0c0c0e;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1.25rem;
+  margin-bottom: 2.87rem;
+}
+
+.footer__content {
+  width: 100%;
+  max-width: 14.3125rem;
+}
+
+.footer__text {
+  font-size: 0.9375rem;
+  line-height: 133%;
+  margin-bottom: 0.62rem;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 0 0.94rem;
+}
+
+.footer__times {
+  text-align: right;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
