@@ -311,3 +311,29 @@ body {
   width: 6.25rem;
   border: 0.0625rem solid #bb945f;
 }
+
+/* --------- SHOP ---------- */
+
+/* --------- CONTACTS ---------- */
+.contacts {
+  padding-bottom: 3.75rem;
+}
+
+.contacts__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts__content-title {
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.contacts__content-text {
+  line-height: 200%;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.25em;
+}
