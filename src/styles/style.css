@@ -144,3 +144,107 @@ body {
 }
 
 /* --------- ABOUT ---------- */
+
+
+/* --------- FAVORITES ---------- */
+
+.favorites {
+  padding-bottom: 3.75rem;
+}
+
+.favorites__title {
+  margin-bottom: 2.5rem;
+}
+
+.favorites__text {
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.favorites__radios {
+  display: flex;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.favorites__label {
+  margin-left: 5.62rem;
+}
+
+.favorites__label span {
+  font-weight: 700;
+}
+
+.favorites__label:nth-child(1) {
+  margin-left: 0;
+}
+
+.favorites__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.favorites__box {
+  width: 100%;
+  max-width: 34.375rem;
+  height: 34.6875rem;
+  border: 1px solid #000;
+  padding: 0.94rem 0 0.94rem 1.25rem;
+  position: relative;
+}
+
+.favorites__box-title {
+  font-family: 'Forum', cursive;
+  line-height: 200%;
+  letter-spacing: 0.125rem;
+  text-transform: capitalize;
+  margin-bottom: 1.25rem;
+}
+
+.favorites__box-title::after {
+  content: "";
+  display: block;
+  width: 3.75rem;
+  border-top: 1px solid #bb945f;
+}
+
+.favorites__box-name {
+  text-transform: uppercase;
+}
+
+.favorites__box-name,
+.favorites__box-author {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 266%;
+  letter-spacing: 0.125rem;
+}
+
+.favorites__box-author {
+  margin-bottom: 1.25rem;
+}
+
+.favorites__box-desc {
+  width: 100%;
+  max-width: 22.1875rem;
+  font-size: 0.9375rem;
+  line-height: 266%;
+  letter-spacing: 0.125rem;
+  margin-bottom: 0.94rem;
+}
+
+.favorites__box-btn {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+  border: 1px solid #000;
+  padding: 0.56rem 1.69rem;
+}
+
+.favorites__box-img {
+  position: absolute;
+  right: -2rem;
+  bottom: -0.07rem;
+}
